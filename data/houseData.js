@@ -8,7 +8,7 @@ export default house = {
     adjacentRooms: ['Foyer'],
   },
   Foyer: {
-    roomName: 'Foyer' ,
+    roomName: 'Foyer',
     info: `
       * Wrought iron front door.
       * Elegant etched glass inserts for privacy.
@@ -20,7 +20,7 @@ export default house = {
   },
   Dining_Room: {
     roomName: 'Dining_Room',
-    info:`
+    info: `
       * Elegant chandelier with LED lights.
       * Tiered high ceilings.
       * Wrought iron window for added security.
@@ -39,7 +39,7 @@ export default house = {
       * Stainless steel 9" extra deep double sinks with pullout faucet and soap dispenser.
       * Under cabinet and top of cabinet LED lights.`,
     img: 'kitchen.jpg',
-    adjacentRooms: ['Living_Room','Breakfast_Nook']
+    adjacentRooms: ['Living_Room', 'Breakfast_Nook']
   },
   Breakfast_Nook: {
     roomName: 'Breakfast_Nook',
@@ -51,7 +51,7 @@ export default house = {
       * Open and spacious.
     `,
     img: 'breakfast_nook.jpg',
-    adjacentRooms: ['Backyard','Living_Room','Kitchen', 'Master_Bedroom', 'Laundry_Room']
+    adjacentRooms: ['Backyard', 'Living_Room', 'Kitchen', 'Master_Bedroom', 'Laundry_Room']
   },
   Backyard: {
     roomName: 'Backyard',
@@ -65,7 +65,7 @@ export default house = {
       * Entertaining and eating area for backyard barbeques.
     `,
     img: 'backyard.jpg',
-    adjacentRooms: ['Breakfast_Nook','Bedroom_One']
+    adjacentRooms: ['Breakfast_Nook', 'Bedroom_One']
   },
   Master_Bedroom: {
     roomName: 'Master_Bedroom',
@@ -76,9 +76,9 @@ export default house = {
     * Plush neutral taupe carpet.
     * Sliding door for easy access to backyard.`,
     img: 'master_bedroom.jpg',
-    adjacentRooms: ['Master_Bathroom','Breakfast_Nook']
+    adjacentRooms: ['Master_Bathroom', 'Breakfast_Nook']
   },
-  Master_Bathroom:  {
+  Master_Bathroom: {
     roomName: 'Master_Bathroom',
     info: `
       * Custom glass shower enclosure.
@@ -111,7 +111,7 @@ export default house = {
       * Tiered ceiling.
       * T.V. wall mount/media closet.`,
     img: 'living_room.jpg',
-    adjacentRooms: ['Foyer', 'Breakfast_Nook', 'Bedroom_One', 'Bedroom_Two', 'Bedroom_Three','Bathroom_Two']
+    adjacentRooms: ['Foyer', 'Breakfast_Nook', 'Bedroom_One', 'Bedroom_Two', 'Bedroom_Three', 'Bathroom_Two']
   },
   Bedroom_One: {
     roomName: 'Bedroom_One',
@@ -124,7 +124,7 @@ export default house = {
       * Decorative wainscott and chair rail modlings.
     `,
     img: 'bedroom_one.jpg',
-    adjacentRooms:['Bathroom_One','Backyard','Living_Room']
+    adjacentRooms: ['Bathroom_One', 'Backyard', 'Living_Room']
   },
   Bathroom_One: {
     roomName: 'Bathroom_One',
@@ -160,7 +160,7 @@ export default house = {
       * Custom shelving and cabinet.
     `,
     img: 'bedroom_two.jpg',
-    adjacentRooms: ['Bedroom_Three','Bathroom_Two']
+    adjacentRooms: ['Bedroom_Three', 'Bathroom_Two']
   },
   Bedroom_Three: {
     roomName: 'Bedroom_Three',
@@ -170,7 +170,7 @@ export default house = {
       * Two closets.
       * Plush neutral taupe carpet.`,
     img: 'bedroom_three.jpg',
-    adjacentRooms: ['Bedroom_Two','Bathroom_Two']
+    adjacentRooms: ['Bedroom_Two', 'Bathroom_Two']
   },
   Laundry_Room: {
     roomName: 'Laundry_Room',
@@ -180,7 +180,7 @@ export default house = {
       * Large storage closet.
       * Linen closet with extra deep shelves.`,
     img: 'laundry_room.jpg',
-    adjacentRooms: ['Master_Bedroom','Breakfast_Nook', 'Garage']
+    adjacentRooms: ['Master_Bedroom', 'Breakfast_Nook', 'Garage']
   },
   Garage: {
     roomName: 'Garage',
